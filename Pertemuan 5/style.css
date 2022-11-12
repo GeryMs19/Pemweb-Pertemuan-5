@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background: url(https://www.readz.com/image/8359264.1620928269000/gradient-backgrounds.webp) no-repeat center center/cover;
+    backdrop-filter: blur(20px);
+}
+
+h2{
+    color: #ffffff;
+    font-size: 2rem;
+    border: 1px solid;
+    background-color: black;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: scroll;
+    font-size: 1rem;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+}
+
+th {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+tbody {
+    background: linear-gradient(90deg, #021bff 0%, #d110ff 100%);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+td {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+select {
+    width: 40%;
+    padding: .5rem;
+    border: 1px solid rgb(98, 98, 98);
+    background: linear-gradient(90deg, #d110ff 0%, #021bff 100%);
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+option {
+    font-weight: 600;
+    color:black ;
+}
